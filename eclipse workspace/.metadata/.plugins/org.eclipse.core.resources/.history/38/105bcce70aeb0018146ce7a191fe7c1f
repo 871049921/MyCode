@@ -1,0 +1,15 @@
+package experiment3;
+
+public class FlyingFishShow extends FishShow {
+	public FlyingFishShow() {
+		
+	}
+	
+	public FlyingFishShow(int number, String name, int age, String gender, int feedTime) {
+		setNumber(number);
+		setName(name);
+		setAge(age);
+		setGender(gender);
+		setFeedTime(feedTime);
+	}
+}

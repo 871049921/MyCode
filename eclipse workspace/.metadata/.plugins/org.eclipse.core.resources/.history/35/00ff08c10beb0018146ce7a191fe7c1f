@@ -1,0 +1,15 @@
+package experiment3;
+
+public class ClownFishShow extends FishShow {
+	public ClownFishShow() {
+		
+	}
+	
+	public ClownFishShow(int number, String name, int age, String gender, int feedTime) {
+		setNumber(number);
+		setName(name);
+		setAge(age);
+		setGender(gender);
+		setFeedTime(feedTime);
+	}
+}

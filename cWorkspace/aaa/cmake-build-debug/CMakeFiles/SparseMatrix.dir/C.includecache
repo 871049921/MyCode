@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/work/cWorkspace/aaa/SparseMatrix.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+SparseMatrix.h
+D:/work/cWorkspace/aaa/SparseMatrix.h
+
+D:/work/cWorkspace/aaa/SparseMatrix.h
+

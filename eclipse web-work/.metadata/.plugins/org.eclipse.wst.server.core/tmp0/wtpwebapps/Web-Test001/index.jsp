@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page info = "呵呵啊哈111" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>呵呵啊哈111</title>
+</head>
+<body BGCOLOR=E6E6FA>
+	<font Size=5>
+	<center> 那没事了 </center>
+	<%
+	int sum = 0;
+	for(int i = 0; i <= 1000; i ++) {
+		sum += i;
+	}
+	%>
+	<p> 1到1000的连续和是：
+	<%=sum %>
+	<%
+		String count = (String)application.getAttribute("count");
+		if(count == null) {
+			count = "1";
+		} else {
+			count = Integer.parseInt(count) + 1 + "";
+		}
+		application.setAttribute("count", count);
+	%>
+	<%="<h4>到目前为止，访问该企业网站的人数为：" + count + "</h4><br>" %>
+	</font>
+</body>
+</html>

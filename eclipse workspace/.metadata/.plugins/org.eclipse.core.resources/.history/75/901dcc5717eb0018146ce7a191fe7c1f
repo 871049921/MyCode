@@ -1,0 +1,10 @@
+package experiment3;
+
+public abstract class MammalShow extends AnimalShow {
+	public MammalShow() {
+		super();
+		setType("MammalShow");
+	}
+	
+	public abstract String toString();
+}

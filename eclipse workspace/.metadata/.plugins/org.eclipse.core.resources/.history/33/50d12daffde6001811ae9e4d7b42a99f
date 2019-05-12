@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class NewMain {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		NewLever l = new NewLever(1);
+		NewDial d = new NewDial(1);
+		Brush b = new Brush(0);
+		NewAgent agent = new NewAgent(l, d, b);
+		
+		int choice = 0;
+		
+		while (true) {
+			menu();
+			choice = input.nextInt();
+			switch(choice) {
+			case 1:
+				l.upPos();
+				break;
+			case 2:
+				l.downPos();
+				break;
+			case 3:
+				d.upPos();
+				break;
+			case 4:
+				d.downPos();
+				break;
+			default:
+				input.close();
+				System.exit(0);
+				break;
+			}
+			agent.dealSpeed();
+			System.out.println("Lever's pos:" + l.getPos());
+			System.out.println("Dial's pos:" + d.getPos());
+			System.out.println("Brush's speed:" + b.getSpeed());
+		}
+	}
+	
+	private static void menu() {
+		System.out.println("Please input your choice");
+		System.out.println("1:Lever up");
+		System.out.println("2:Lever down");
+		System.out.println("3:Dial up");
+		System.out.println("4:Dial down");
+		System.out.println("0:exit");
+	}
+
+
+}

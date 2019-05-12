@@ -1,0 +1,161 @@
+package experiment3;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class FormList {
+	ArrayList<String> names = new ArrayList<String>();
+	private static int numberOfFish = 0;
+	private static int numberOfMammal = 0;
+	private static int numberOfReptile = 0;
+	
+	public FormList() {
+		names.add("aqw");
+		names.add("basd");
+		names.add("asdasd");
+		names.add("jwhgkj");
+		names.add("asduahwui");
+		names.add("vuhfv");
+		names.add("jhgrfu");
+		names.add("skgdhuiarhg");
+		names.add("vnueiarvuieve");
+	}
+	
+	// 产生随机的节目表
+	public ArrayList<String> setRandomShowList() {
+		ArrayList<String> list = new ArrayList<String>();//总节目表
+		ArrayList<FishShow> listOfFish = new ArrayList<FishShow>();//鱼类表演列表
+		ArrayList<MammalShow> listOfMammal = new ArrayList<MammalShow>();//海洋哺乳类表演列表
+		ArrayList<ReptileShow> listOfReptile = new ArrayList<ReptileShow>();//爬行动物类表演列表
+		list.add("show prepare");
+		int i = 0;
+		while (i < 20) {
+			switch (i % 3 + 1) {
+			case 1:
+				listOfFish.add(setRandomFishShow());
+				break;
+			case 2:
+				listOfMammal.add(setRandomMammalShow());
+				break;
+			case 3:
+				listOfReptile.add(setRandomReptileShow());
+				break;
+			}
+			i++;
+		}
+		Mermaid mermaid = setMermaidShow();
+		list = sortShows(listOfFish, listOfMammal, listOfReptile, mermaid);
+		return list;
+	}
+
+	// 随机产生鱼类演出
+	private FishShow setRandomFishShow() {
+		int i = (int) (Math.random() * 3) + 1;
+		Collections.shuffle(names);
+		switch (i) {
+		case 1:
+			FishShow flyingFishShow = new FlyingFishShow(10000 + numberOfFish, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			numberOfFish ++;
+			return flyingFishShow;
+		case 2:
+			FishShow shark = new SharkShow(10000 + numberOfFish, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			numberOfFish ++;
+			return shark;
+		case 3:
+			FishShow clownFish = new ClownFishShow(10000 + numberOfFish, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			numberOfFish ++;
+			return clownFish;
+		}
+		return null;
+	}
+
+	// 随机产生海洋哺乳动物演出
+	private MammalShow setRandomMammalShow() {
+		int i = (int) (Math.random() * 3) + 1;
+		Collections.shuffle(names);
+		switch (i) {
+		case 1:
+			MammalShow seaLoin = new SeaLoinShow(20000 + numberOfMammal, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			numberOfMammal ++;
+			return seaLoin;
+		case 2:
+			MammalShow seal = new SealShow(20000 + numberOfMammal, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			numberOfMammal ++;
+			return seal;
+		case 3:
+			MammalShow dolphoin = new DolphinShow(20000 + numberOfMammal, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			numberOfMammal ++;
+			return dolphoin;
+		}
+		return null;
+	}
+
+	// 随机产生爬行动物演出
+	private ReptileShow setRandomReptileShow() {
+		int i = (int) (Math.random() * 2) + 1;//需要改
+		Collections.shuffle(names);
+		switch (i) {
+		case 1:
+			ReptileShow crocodileShow = new CrocodileShow(30000 + numberOfReptile, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			numberOfReptile ++;
+			return crocodileShow;
+		case 2:
+			ReptileShow lizard = new LizardShow(30000 + numberOfReptile, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			numberOfReptile ++;
+			return lizard;
+		}
+		return null;
+	}
+
+	// 产生美人鱼演出
+	private Mermaid setMermaidShow() {
+		Collections.shuffle(names);
+		Mermaid mermaid = new Mermaid(names.get(1));
+		return mermaid;
+	}
+	
+	//随机排序产生好的表演
+	private ArrayList<String> sortShows(ArrayList<FishShow> listOfFish, ArrayList<MammalShow> listOfMammal, ArrayList<ReptileShow> listOfReptile, Mermaid mermaid) {
+		ArrayList<String> list = new ArrayList<String>();//总节目表
+		int i = 0;
+		while (!listOfFish.isEmpty() && !listOfMammal.isEmpty() && !listOfReptile.isEmpty()) {
+			switch(i++ % 3 + 1){
+			case 1:
+				if (!listOfFish.isEmpty()) {
+					Collections.shuffle(listOfFish);
+					list.add(listOfReptile.get(0).toString());
+					listOfFish.remove(0);
+				}
+				break;
+			case 2:
+				if (!listOfMammal.isEmpty()) {
+					Collections.shuffle(listOfMammal);
+					list.add(listOfReptile.get(0).toString());
+					listOfMammal.remove(0);
+				}
+				break;
+			case 3:
+				if (!listOfReptile.isEmpty()) {
+					Collections.shuffle(listOfReptile);
+					list.add(listOfReptile.get(0).toString());
+					listOfReptile.remove(0);
+				}
+				break;
+			}
+		}
+		list.add(mermaid.toString());
+		return list;
+	}
+	
+	//获取每个演出的详细信息
+	private String showsToString(AnimalShow animalShow) {
+		String information = "";
+		
+		AnimalTrainer animalTrainer = new AnimalTrainer("pgw");//驯兽师名字
+		information = "今天表演的" + animalShow.getType() + "名叫" + animalShow.getName() + "," + animalShow.getAge() + 
+						"岁,现在有情驯兽师" + animalTrainer.getName() + "带领" + animalShow.getName() + "出场";
+		
+		return information;
+	}
+	
+}

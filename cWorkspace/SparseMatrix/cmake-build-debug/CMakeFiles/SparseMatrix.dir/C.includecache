@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/work/cWorkspace/SparseMatrix/SequentialList.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/work/cWorkspace/SparseMatrix/SparseMatrix.h
+
+D:/work/cWorkspace/SparseMatrix/main.c
+SequentialList.h
+D:/work/cWorkspace/SparseMatrix/SequentialList.h
+SparseMatrix.h
+D:/work/cWorkspace/SparseMatrix/SparseMatrix.h
+stdio.h
+-
+time.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,248 @@
+-- 供应商表
+CREATE TABLE S
+(SN CHAR(2) PRIMARY KEY,
+SNAME CHAR(3),
+CITY CHAR(10));
+
+--零件表
+CREATE TABLE P
+(PN CHAR(3) PRIMARY KEY,
+PNAME CHAR(3),
+COLOR CHAR(4),
+WEIGHT INT);
+
+--工程表
+CREATE TABLE J
+(JN CHAR(2) PRIMARY KEY,
+JNAME CHAR(3),
+CITY CHAR(10));
+
+--供应关系表
+CREATE TABLE SPJ
+(SN CHAR(2),
+PN CHAR(3),
+JN CHAR(2),
+QTY INT,
+PRIMARY KEY(SN,PN,JN),
+FOREIGN KEY(SN) REFERENCES S(SN),
+FOREIGN KEY(PN) REFERENCES P(PN),
+FOREIGN KEY(JN) REFERENCES J(JN));
+
+--5．	插入数据
+  insert into S
+   values('S1','SN1 ', '上海') ;
+insert into S
+   values('S2','SN2 ', '北京') ;
+insert into S
+   values('S3','SN3 ', '南京') ;
+insert into S
+   values('S4','SN4 ', '西安') ;
+insert into S
+   values('S5','SN5 ', '上海 ') ;
+
+insert into P
+   values('P1','PN1 ', '红',12) ;
+insert into P
+   values('P2','PN2 ', '绿',18) ;
+insert into P
+   values('P3','PN3 ', '蓝',20) ;
+insert into P
+   values('P4','PN4 ', '红',13) ;
+insert into P
+   values('P5','PN5 ', '白',11) ;
+insert into P
+   values('P6','PN6 ', '蓝',18) ;
+
+insert into J
+   values('J1','JN1 ', '上海') ;
+insert into J
+   values('J2','JN2 ', '广州') ;
+insert into J
+   values('J3','JN3 ', '武汉') ;
+insert into J
+   values('J4','JN4 ', '北京') ;
+insert into J
+   values('J5','JN5 ', '南京') ;
+insert into J
+   values('J6','JN6 ', '上海') ;
+insert into J
+   values('J7','JN7 ', '上海') ;
+
+insert into SPJ(SN,PN,JN,QTY)
+   values('S1','P1','J1',200) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S1','P1','J4',700) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S2','P3','J1',800) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S2','P3','J2',200) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S2','P3','J3',30) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S2','P3','J4',400) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S2','P3','J5',500) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S2','P3','J6',200) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S2','P3','J7',300) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S2','P5','J2',200) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S3','P3','J1',100) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S3','P4','J2',200) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S4','P6','J3',300) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S4','P6','J7',500) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S5','P2','J2',500) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S5','P2','J4',250) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S5','P5','J5',300) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S5','P5','J7',100) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S5','P6','J2',200) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S5','P1','J4',300) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S5','P3','J4',100) ;
+insert into SPJ(SN,PN,JN,QTY)
+   values('S5','P4','J4',200) ;
+--1
+SELECT *
+FROM J;
+--2
+SELECT *
+FROM J
+WHERE CITY = '上海';
+--3
+SELECT PN
+FROM P
+WHERE WEIGHT = 
+(SELECT MIN(WEIGHT)
+FROM P);
+--4
+SELECT SN
+FROM SPJ
+WHERE SPJ.JN = 'J1';
+--5
+SELECT SN
+FROM SPJ
+WHERE SPJ.JN = 'J1' AND SPJ.PN = 'P1';
+--6
+SELECT JN
+FROM SPJ
+WHERE SPJ.SN = 'S1';
+--7
+SELECT COLOR
+FROM SPJ,P
+WHERE SPJ.SN = 'S1' AND SPJ.PN = P.PN;
+--8
+SELECT SN
+FROM SPJ a
+WHERE a.JN = 'J1'
+INTERSECT
+SELECT SN
+FROM SPJ b
+WHERE b.JN = 'J2';
+--9
+SELECT SN
+FROM SPJ,P
+WHERE SPJ.JN = 'J1' AND P.PN = SPJ.PN AND P.COLOR = '红';
+--10
+SELECT DISTINCT SPJ.SN
+FROM SPJ,J
+WHERE J.CITY = '上海' AND SPJ.JN = J.JN;
+--11
+SELECT SPJ.SN
+FROM SPJ,P,J
+WHERE (J.CITY = '上海' OR J.CITY =  '北京' ) AND
+SPJ.JN = J.JN AND P.PN = SPJ.PN AND P.COLOR = '红';
+--12
+SELECT SPJ.PN
+FROM SPJ,S,J
+WHERE S.CITY = J.CITY AND SPJ.SN = S.SN AND SPJ.JN = J.JN;
+--13
+SELECT SPJ.PN
+FROM SPJ,S,J
+WHERE S.CITY = '上海' AND J.CITY = '上海' AND SPJ.JN = J.JN AND SPJ.SN = S.SN;
+--14
+SELECT DISTINCT SPJ.JN
+FROM SPJ,S,J
+WHERE SPJ.SN = S.SN AND SPJ.JN = J.JN AND S.CITY != ANY (
+SELECT J.CITY
+FROM J
+);
+--15
+SELECT DISTINCT JN
+FROM J
+WHERE JN NOT IN
+(SELECT SPJ.JN
+FROM SPJ,S
+WHERE S.CITY = '上海' AND SPJ.SN = S.SN );
+--16
+SELECT SN
+FROM SPJ
+WHERE PN IN
+(SELECT PN
+FROM P
+WHERE COLOR = '红');
+--17
+SELECT JN
+FROM SPJ,S
+WHERE SPJ.SN = S.SN AND S.SN = 'S1';
+--18
+SELECT DISTINCT S.CITY,J.CITY
+FROM SPJ,S,J
+WHERE SPJ.JN = J.JN AND SPJ.SN = S.SN;
+--19
+SELECT DISTINCT S.CITY,PN,J.CITY
+FROM SPJ,S,J
+WHERE SPJ.JN = J.JN AND SPJ.SN = S.SN;
+--20
+SELECT DISTINCT S.CITY,PN,J.CITY
+FROM SPJ,S,J
+WHERE SPJ.JN = J.JN AND SPJ.SN = S.SN AND S.CITY != J.CITY;
+--21
+SELECT JN
+FROM SPJ
+WHERE JN NOT IN
+(SELECT JN
+FROM P,SPJ,S
+WHERE P.COLOR = '红'AND SPJ.PN = P.PN AND SPJ.SN = S.SN AND S.CITY = '上海'
+);
+--22
+SELECT JN
+FROM J
+WHERE NOT EXISTS
+(SELECT *
+FROM SPJ
+WHERE SPJ.SN = 'S1'AND SPJ.PN NOT IN
+(SELECT *
+FROM SPJ Y
+WHERE Y.JN = J.JN)
+);
+--23
+UPDATE P
+SET COLOR = '蓝'
+WHERE COLOR = '红';
+
+UPDATE SPJ
+SET SN = 'S4'
+WHERE SN = 'S5' AND JN = 'J4' AND PN = 'P4';
+
+DELETE 
+FROM S
+WHERE SN = 'S2';
+
+DELETE
+FROM SPJ
+WHERE JN = 'J7' AND SN = 'S4';
+
+INSERT 
+INTO SPJ
+VALUES('S5','J7','P4',200);

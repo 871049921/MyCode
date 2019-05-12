@@ -1,0 +1,10 @@
+package experiment3;
+
+public class Mermaid extends Staff {
+	private int number;
+	
+	public Mermaid(String name) {
+		number = 90000;
+		setName(name);
+	}
+}

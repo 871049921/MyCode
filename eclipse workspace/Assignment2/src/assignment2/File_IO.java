@@ -1,0 +1,57 @@
+package assignment2;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.util.Scanner;
+
+public class File_IO {
+	
+	//构造方法
+	public File_IO() {
+		
+	}
+	
+	//读取文件
+	public String[] outputInformation() throws Exception {
+		File f1 = new File("Requests.txt");//创建请求文档
+		Scanner input = new Scanner(f1);
+		if (!f1.exists()) {
+			f1.createNewFile();
+		}
+		String[] recv = new String[1000000];
+		for (int i = 0; input.hasNextLine() == true; i++) {
+			recv[i] = input.nextLine();
+		}
+		input.close();
+		return recv;
+	}
+	
+	//将数组中的信息传到文件中
+	public void inputInformation(String[] str) throws Exception {
+		File f2 = new File("output.txt");
+		if (!f2.exists()) {
+			f2.createNewFile();
+		}
+		FileWriter output = new FileWriter(f2);
+		for (int i = 0; str[i] != null; i++) {
+			if (str[i+1] != null) {
+				output.write(str[i] + "\r\n");
+			}
+			else {
+				output.write(str[i]);
+			}
+		}
+		output.close();
+	}
+	
+	//crash错误
+	public static void crashError()throws Exception {
+		File f2 = new File("output.txt");
+		if (!f2.exists()) {
+			f2.createNewFile();
+		}
+		FileWriter output = new FileWriter(f2);
+		output.write("ERROR\r\n#crash");
+		output.close();
+	}
+}

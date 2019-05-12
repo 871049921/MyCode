@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\work\eclipse workspace-oxygen\webserver"/>
+		<item value="D:\work\eclipse workspace-oxygen\FlyBird"/>
+		<item value="D:\work\eclipse workspace-oxygen\Experiment4"/>
+		<item value="D:\work\eclipse workspace-oxygen\Assignment1"/>
+		<item value="D:\work\eclipse workspace-oxygen\Assignment4"/>
+		<item value="D:\work\eclipse workspace\Experiment3"/>
+		<item value="D:\work\eclipse workspace-oxygen\Assignment2"/>
+		<item value="D:\work\eclipse workspace-oxygen\Assignment3"/>
+		<item value="E:\work\eclipse workspace\Assignment2"/>
+		<item value="C:\Users\666\Desktop\src\com\cburch"/>
+		<item value="E:\work\eclipse workspace\Assignment1"/>
+		<item value="E:\work\eclipse workspace-oxygen\Experiment2"/>
+		<item value="E:\work\eclipse workspace-oxygen\Assignment1"/>
+		<item value="E:\work\eclipse workspace-oxygen\Experiment1"/>
+	</list>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="626" key="DIALOG_X_ORIGIN"/>
+		<item value="343" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

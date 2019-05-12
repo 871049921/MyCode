@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class BridgeBrush {
+
+	public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+		
+		Brush b = new Brush(0);
+		Lever l = new Lever2(1);
+		Dial d = new Dial2(1);
+		Rain r = new Rain1(1);
+		Agent agent = new Agent2(b, l, d, r);
+		
+		int choice = 0;
+		
+		while (true) {
+			menu();
+			choice = input.nextInt();
+			switch(choice) {
+			case 1:
+				break;
+			case 2:
+				l.downPos();
+				break;
+			case 3:
+				d.upPos();
+				break;
+			case 4:
+				d.downPos();
+				break;
+			case 5:
+				r.heavyUp();
+				break;
+			case 6:
+				r.heavyDown();
+				break;
+			default:
+				input.close();
+				System.exit(0);
+				break;
+			}
+			agent.dealSpeed();
+			System.out.println("Lever's pos:" + l.getPos());
+			System.out.println("Dial's pos:" + d.getPos());
+			System.out.println("Brush's speed:" + b.getSpeed());
+			System.out.println("Rain's heavy:" + r.getHeavy());
+		}
+	}
+	
+	private static void menu() {
+		System.out.println("Please input your choice");
+		System.out.println("1:Lever up");
+		System.out.println("2:Lever down");
+		System.out.println("3:Dial up");
+		System.out.println("4:Dial down");
+		System.out.println("5:Rain up");
+		System.out.println("6:Rain down");
+		System.out.println("0:exit");
+		System.out.println("");
+	}
+
+}

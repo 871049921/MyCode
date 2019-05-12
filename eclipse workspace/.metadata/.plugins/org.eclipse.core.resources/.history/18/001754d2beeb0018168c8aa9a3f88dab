@@ -1,0 +1,9 @@
+
+public abstract class Agent {
+	
+	public Agent() {
+		
+	}
+	
+	public abstract void dealSpeed();
+}

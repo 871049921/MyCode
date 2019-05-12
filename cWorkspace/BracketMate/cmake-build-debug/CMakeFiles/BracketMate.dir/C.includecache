@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/work/cWorkspace/BracketMate/Stack.h
+stdio.h
+-
+stdlib.h
+-
+conio.h
+-
+
+D:/work/cWorkspace/BracketMate/main.c
+stdio.h
+-
+Stack.h
+D:/work/cWorkspace/BracketMate/Stack.h
+

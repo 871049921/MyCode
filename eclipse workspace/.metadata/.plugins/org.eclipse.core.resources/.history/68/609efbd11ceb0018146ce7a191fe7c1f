@@ -1,0 +1,69 @@
+package experiment3;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+public class Experiment3 {
+	public static void main(String[] args) {
+		ArrayList<String> showName = new ArrayList<String>();
+		ArrayList<String> interactionName = new ArrayList<String>();
+		File_IO file = new File_IO();
+		FormList list = new FormList();
+		ArrayList<String> aList = list.setRandomShowList();//接受随机产生节目表的文件信息
+		ArrayList<String> shouList = list.getFormList();
+		int cruuentMinute = 480;//八点开始
+		
+		setShowName(showName);
+		setInteractionName(interactionName);
+		
+		int i = 0;
+		while (i < aList.size()) {
+			if (i == 0) {//准备阶段
+				dealWithFeed(aList);
+			}
+			setItem(showName, interactionName);
+//			if (i == 0) {
+//				System.out.print("第一个出场的是" + list.getFormList().get(0) + ",");
+//			} else {
+//				System.out.print("下一个一个出场的是" + list.getFormList().get(i) + ",");
+//			}
+			System.out.println(aList.get(i++));
+		}
+	}
+	
+	public static void setShowName(ArrayList<String> showName) {
+		showName.add("越龙门");
+		showName.add("钻圈");
+		showName.add("跳舞");
+	}
+	
+	public static void setInteractionName(ArrayList<String> interactionName) {
+		interactionName.add("亲吻");
+		interactionName.add("拥抱");
+		interactionName.add("打人");
+	}
+	
+	//随机产生项目和互动方式
+	public static void setItem(ArrayList<String> showName, ArrayList<String> interactionName) {
+		Collections.shuffle(showName);
+		ShowItem showItem = new ShowItem(showName.get(0), (int)(Math.random() * 10));
+		Collections.shuffle(interactionName);
+		Interaction interaction = new Interaction(interactionName.get(0), (int)(Math.random() * 10));
+	}
+	
+	//处理喂食动物
+	public static void dealWithFeed(ArrayList<String> aList) {
+		Scanner input = new Scanner(System.in);
+		for (int i = 2; i < aList.size(); i++) {
+			String feed = input.nextLine();
+			String[] feeds = feed.split(" ");
+			int number = Integer.parseInt(feeds[0]);
+			
+		}
+		input.close();
+	}
+}

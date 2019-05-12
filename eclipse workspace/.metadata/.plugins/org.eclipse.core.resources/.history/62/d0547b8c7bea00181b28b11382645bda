@@ -1,0 +1,15 @@
+
+public class Rain1 extends Rain {
+
+	@Override
+	public int getHeavy() {
+		return heavy;
+	}
+
+	@Override
+	public void setHeavy(int heavy) {
+		this.heavy = heavy;
+
+	}
+
+}

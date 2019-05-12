@@ -1,0 +1,45 @@
+
+public class Agent2 implements Agent {
+	private Brush brush;
+	private Lever2 lever;
+	private Dial2 dial;
+	private Rain1 rain;
+	
+	public void dealSpeed() {
+		if (rain.getHeavy() == 0) {
+			brush.setSpeed(0);
+			return;
+		} else if (rain.getHeavy() == 5) {
+			brush.setSpeed(120);
+			return;
+		}
+		
+		switch(lever.getPos()) {
+		case 1:
+			brush.setSpeed(0);
+			break;
+		case 2:
+			switch(dial.getPos()) {
+			case 1:
+				brush.setSpeed(4);
+				break;
+			case 2:
+				brush.setSpeed(6);
+				break;
+			case 3:
+				brush.setSpeed(12);
+				break;
+			}
+			break;
+		case 3:
+			brush.setSpeed(30);
+			break;
+		case 4:
+			brush.setSpeed(60);
+			break;
+		case 5:
+			brush.setSpeed(90);
+			break;
+		}
+	}
+}

@@ -1,0 +1,63 @@
+
+import javafx.application.Application;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.*;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+public class Main  extends Application {
+
+	public static void main(String[] args) {
+		Application.launch(args);
+	}
+	
+	@Override
+	public void start(Stage primaryStage) {
+		StackPane stackPane = new StackPane();
+		stackPane.setAlignment(Pos.CENTER);
+		HBox hbUsersName = new HBox();
+		HBox hbPassWord = new HBox();
+		HBox hbComfirmPassWord = new HBox();
+		HBox hbEMail = new HBox();
+		HBox hbPhoneNumber = new HBox();
+		VBox vBox = new VBox();
+		Label lbUsersName = new Label("用户名：   ");
+		Label lbPassWord = new Label("登陆密码：");
+		Label lbComfirmPassWord = new Label("确认密码：");
+		Label lbEMail = new Label("邮箱：       ");
+		Label lbPhoneNumber = new Label("请输入您的手机号：");
+		TextField tfUsersName = new TextField();
+		TextField tfPassWord = new TextField();
+		TextField tfComfirmPassWord = new TextField();
+		TextField tfEMail = new TextField();
+		TextField tfPhoneNumber = new TextField();
+		Button btcomFirm = new Button("提交注册信息");
+		
+//		hbUsersName.setAlignment(Pos.CENTER);
+//		hbPassWord.setAlignment(Pos.CENTER);
+//		hbComfirmPassWord.setAlignment(Pos.CENTER);
+//		hbEMail.setAlignment(Pos.CENTER);
+//		hbPhoneNumber.setAlignment(Pos.CENTER);
+//		btcomFirm.setAlignment(Pos.CENTER);
+		
+		hbUsersName.getChildren().addAll(lbUsersName, tfUsersName);
+		hbPassWord.getChildren().addAll(lbPassWord, tfPassWord);
+		hbComfirmPassWord.getChildren().addAll(lbComfirmPassWord, tfComfirmPassWord);
+		hbEMail.getChildren().addAll(lbEMail, tfEMail);
+		hbPhoneNumber.getChildren().addAll(lbPhoneNumber, tfPhoneNumber);
+		vBox.getChildren().addAll(hbUsersName, hbPassWord, hbComfirmPassWord, hbEMail, hbPhoneNumber, btcomFirm);
+		stackPane.getChildren().add(vBox);
+		
+		
+		Scene scene = new Scene(stackPane, 400, 300);
+		primaryStage.setScene(scene);
+		primaryStage.setTitle("妙啊");
+		primaryStage.show();
+	}
+}

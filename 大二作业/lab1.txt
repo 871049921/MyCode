@@ -1,0 +1,20 @@
+CREATE TABLE PAPER(
+	pno char(8) PRIMARY KEY,
+	pna char(8) NOT NULL,
+	ppr float NOT NULL
+);
+
+CREATE TABLE CUSTOMER(
+	cno char(8) PRIMARY KEY,
+	cna char(5) NOT NULL,
+	adr char(20) NOT NULL
+);
+
+CREATE TABLE CP(
+	cno char(8),
+	pno char(8),
+	num int NULL DEFAULT 1 CHECK (num >= 1),
+	PRIMARY KEY(cno,pno),
+	FOREIGN KEY(cno) REFERENCES CUSTOMER(cno),
+	FOREIGN KEY(pno) REFERENCES PAPER(pno)
+);

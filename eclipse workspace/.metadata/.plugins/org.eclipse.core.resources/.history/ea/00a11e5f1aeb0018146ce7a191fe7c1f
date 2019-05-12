@@ -1,0 +1,72 @@
+package experiment3;
+
+public abstract class AnimalShow {
+	private int number;//编号
+	private String type;//类型
+	private String name;//姓名
+	private int age;//年龄
+	private String gender;//性别
+	private int feedTime;//喂食时间
+	private ShowItem[] items;
+	private Interaction[] interaction;
+	
+	//空构造法
+	protected AnimalShow() {
+		number = 0;
+		type = null;
+		name = null;
+		age = 0;
+		gender = null;
+		feedTime = 0;
+		items = null;
+		interaction = null;
+	}
+	
+	public int getNumber() {
+		return number;
+	}
+	
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	
+	public String getType() {
+		return type;
+	}
+	
+	public void setType(String type) {
+		this.type = type;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public int getAge() {
+		return age;
+	}
+	
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public String getGender() {
+		return gender;
+	}
+	
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	
+	public double getFeedTime() {
+		return feedTime;
+	}
+	
+	public void setFeedTime(int feedTime) {
+		this.feedTime = feedTime;
+	}
+}

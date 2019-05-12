@@ -1,0 +1,95 @@
+package experiment3;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+import org.omg.CORBA.PRIVATE_MEMBER;
+
+public class FormList {
+	ArrayList<String> names = new ArrayList<String>();
+	private static int numberOfFish = 0;
+	private static int numberOfMammal = 0;
+	private static int numberOfReptile = 0;
+	
+	public FormList() {
+		names.add("aqw");
+		names.add("basd");
+		names.add("asdasd");
+		names.add("jwhgkj");
+		names.add("asduahwui");
+		names.add("vuhfv");
+		names.add("jhgrfu");
+		names.add("skgdhuiarhg");
+		names.add("vnueiarvuieve");
+	}
+	
+	// 产生随机的节目表
+	public void setRandomShowList() {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("show prepare");
+		int i = 1;
+		while (i < 20) {
+			switch (i % 3) {
+			case 1:
+				setRandomFishShow();
+				break;
+			case 2:
+				setRandomMammalShow();
+				break;
+			case 3:
+				setRandomReptileShow();
+				break;
+			}
+			i++;
+		}
+		setMermaidShow();
+	}
+
+	// 随机产生鱼类演出
+	private String setRandomFishShow() {
+		int i = (int) (Math.random() * 3);
+		Collections.shuffle(names);
+		switch (i) {
+		case 1:
+			FlyingFishShow flyingFishShow = new FlyingFishShow(10000 + numberOfFish, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			return "FlyingFish";
+		case 2:
+			SharkShow shark = new SharkShow(10000 + numberOfFish, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			return "Shark";
+		case 3:
+			ClownFishShow clownFish = new ClownFishShow(10000 + numberOfFish, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			return "ClownFish";
+		}
+		numberOfFish++;
+		return null;
+	}
+
+	// 随机产生海洋哺乳动物演出
+	private String setRandomMammalShow() {
+		int i = (int) (Math.random() * 3);
+		Collections.shuffle(names);
+		switch (i) {
+		case 1:
+			SeaLoinShow seaLoin = new SeaLoinShow(10000 + numberOfFish, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			return "SeaLoin";
+		case 2:
+			SealShow seal = new SealShow(10000 + numberOfFish, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			return "Seal";
+		case 3:
+			DolphinShow dolphoin = new DolphinShow(10000 + numberOfFish, names.get(1), (int)(Math.random() * 100), "雄性", (int)(Math.random() * 30));
+			return "Dolphin";
+		}
+		numberOfFish++;
+		return null;
+	}
+
+	// 随机产生哺乳动物演出
+	private void setRandomReptileShow() {
+
+	}
+
+	// 产生美人鱼演出
+	private void setMermaidShow() {
+
+	}
+}

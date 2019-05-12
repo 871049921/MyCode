@@ -1,0 +1,7 @@
+package experiment3;
+
+public class FishShow extends AnimalShow {
+	public FishShow() {
+		setType("Fish");
+	}
+}

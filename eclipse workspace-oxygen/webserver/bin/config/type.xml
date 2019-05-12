@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Type>
+	<mp4>Content-Type: video/mp4</mp4>
+	<css >Content-Type: text/css</css >
+	<html>Content-Type: text/html</html>
+	<js >Content-Type: text/javascript</js>
+	<png >Content-Type: image/png</png>
+	<jpg >Content-Type: image/jpg</jpg>
+</Type>

@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page info = "呵呵啊哈111" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>呵呵啊哈111</title>
+</head>
+<body BGCOLOR=E6E6FA>
+	<font Size=5>
+	<center> 那没事了 </center>
+	<%
+	int sum = 0;
+	for(int i = 0; i <= 1000; i ++) {
+		sum += i;
+	}
+	%>
+	<p> 1到1000的连续和是：</p>
+	<%=sum %>
+	</font>
+</body>
+</html>

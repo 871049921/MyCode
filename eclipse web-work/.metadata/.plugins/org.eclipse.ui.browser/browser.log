@@ -1,0 +1,16 @@
+
+4月 26, 2019 20:10:30.67 NEW SESSION
+4月 26, 2019 20:10:30.67 [2692:9232:0426/201030.669:ERROR:browser_process_sub_thread.cc(209)] Waited 102 ms for network service
+4月 26, 2019 20:16:40.29 [12408:436:0426/201640.298:ERROR:browser_process_sub_thread.cc(209)] Waited 54 ms for network service
+4月 26, 2019 20:16:46.36 [8936:10860:0426/201646.367:ERROR:browser_process_sub_thread.cc(209)] Waited 58 ms for network service
+4月 26, 2019 20:16:50.79 [7388:11920:0426/201650.795:ERROR:browser_process_sub_thread.cc(209)] Waited 81 ms for network service
+4月 26, 2019 20:16:54.97 [10356:13512:0426/201654.974:ERROR:browser_process_sub_thread.cc(209)] Waited 116 ms for network service
+4月 26, 2019 20:17:14.72 [3112:12680:0426/201714.725:ERROR:browser_process_sub_thread.cc(209)] Waited 77 ms for network service
+4月 26, 2019 20:17:23.38 [3784:9340:0426/201723.380:ERROR:browser_process_sub_thread.cc(209)] Waited 135 ms for network service
+4月 26, 2019 20:19:57.59 [12524:12164:0426/201957.597:ERROR:browser_process_sub_thread.cc(209)] Waited 56 ms for network service
+4月 26, 2019 20:20:23.13 [7076:10720:0426/202023.136:ERROR:browser_process_sub_thread.cc(209)] Waited 100 ms for network service
+
+4月 29, 2019 16:54:49.28 NEW SESSION
+4月 29, 2019 16:54:49.28 [11200:2768:0429/165449.278:ERROR:browser_process_sub_thread.cc(209)] Waited 43 ms for network service
+4月 29, 2019 16:56:05.00 [10736:4968:0429/165605.002:ERROR:browser_process_sub_thread.cc(209)] Waited 63 ms for network service
+4月 29, 2019 16:56:19.03 [8800:15176:0429/165619.035:ERROR:browser_process_sub_thread.cc(209)] Waited 21 ms for network service

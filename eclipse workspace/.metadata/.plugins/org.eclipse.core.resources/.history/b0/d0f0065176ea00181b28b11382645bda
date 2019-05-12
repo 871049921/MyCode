@@ -1,0 +1,26 @@
+
+public class Dial1 {
+	public Dial1() {
+		
+	}
+	
+	public Dial1(int pos) {
+		this.pos = pos;
+	}
+	
+	public int getPos() {
+		return this.pos;
+	}
+	
+	public void upPos() {
+		if (this.pos < 3) {
+			this.pos ++;
+		}
+	}
+	
+	public void downPos() {
+		if (this.pos > 1) {
+			this.pos --;
+		}
+	}
+}

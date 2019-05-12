@@ -1,0 +1,16 @@
+
+public abstract class Rain {
+	protected int heavy;
+	
+	public Rain() {
+		heavy = 0;
+	}
+	
+	public Rain(int heavy) {
+		this.heavy = heavy;
+	}
+	
+	public abstract int getHeavy();
+	
+	public abstract void setHeavy(int heavy);
+}

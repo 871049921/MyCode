@@ -1,0 +1,40 @@
+
+public class Agent1 extends Agent {
+	
+	private Brush brush;
+	private Lever lever;
+	private Dial dial;
+	
+	public Agent1(Brush brush, Lever lever, Dial dial) {
+		this.brush = brush;
+		this.dial = dial;
+		this.lever = lever;
+	}
+	
+	public void dealSpeed() {
+		switch(lever.getPos()) {
+		case 1:
+			brush.setSpeed(0);
+			break;
+		case 2:
+			switch(dial.getPos()) {
+			case 1:
+				brush.setSpeed(4);
+				break;
+			case 2:
+				brush.setSpeed(6);
+				break;
+			case 3:
+				brush.setSpeed(12);
+				break;
+			}
+			break;
+		case 3:
+			brush.setSpeed(30);
+			break;
+		case 4:
+			brush.setSpeed(60);
+			break;
+		}
+	}
+}

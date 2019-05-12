@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/work/cWorkspace/maze/Queue.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/work/cWorkspace/maze/Stack.h
+stdio.h
+-
+stdlib.h
+-
+conio.h
+-
+
+D:/work/cWorkspace/maze/main.c
+stdio.h
+-
+Queue.h
+D:/work/cWorkspace/maze/Queue.h
+time.h
+-
+stdlib.h
+-
+math.h
+-
+Stack.h
+D:/work/cWorkspace/maze/Stack.h
+

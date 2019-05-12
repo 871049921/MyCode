@@ -1,0 +1,140 @@
+package experiment3;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
+import org.omg.CORBA.PRIVATE_MEMBER;
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+public class Experiment3 {
+	private static int currentMinute = 480;//八点开始
+	
+	public static void main(String[] args) {
+		File_IO file = new File_IO();
+		FormList list = new FormList();
+		
+		ArrayList<String> showList = new ArrayList<>();
+		ArrayList<Integer> numbers = new ArrayList<Integer>();//获取序号
+		
+		ArrayList<AnimalShow> objectList = new ArrayList<AnimalShow>();//实例化对象
+		
+		ArrayList<FishShow> listOfFish = new ArrayList<FishShow>();//鱼类表演列表
+		ArrayList<MammalShow> listOfMammal = new ArrayList<MammalShow>();//海洋哺乳类表演列表
+		ArrayList<ReptileShow> listOfReptile = new ArrayList<ReptileShow>();//爬行动物类表演列表
+		
+		
+		System.out.println("8:00   各部门开始准备");
+		formList(showList);//生成节目表
+		numbers = getAllNumber(showList);//获取所有序号
+		objectList = formObject(numbers);//实例化所有的对象
+		System.out.println(objectList);
+		dealWithFeed(numbers, objectList);//喂食
+	}
+		
+		
+	
+	//生成节目表
+	public static void formList(ArrayList<String> showList) {
+		showList.add("show prepare");
+		showList.add("entrance start");
+		showList.add("entrance end"); 
+		showList.add("10000 start");
+		showList.add("10001 start");
+		showList.add("10002 start");
+		showList.add("20000 start");
+		showList.add("20001 start");
+		showList.add("20002 start");
+		showList.add("30000 start");
+		showList.add("30001 start");
+		showList.add("30002 start");
+		showList.add("90000 start");
+		showList.add("show end");
+	}
+	
+	//生成对象
+	public static ArrayList<AnimalShow> formObject(ArrayList<Integer> numbers) {
+		ArrayList<AnimalShow> objectList = new ArrayList<AnimalShow>();
+		
+		for (int i = 0; i < numbers.size(); i++) {
+			int num = numbers.get(i);
+			if (num >= 10000 && num < 20000) {//鱼类表演
+				objectList.add(FormList.setRandomFishShow(num));
+			} else if (num >= 20000 && num < 30000) {//哺乳类动物表演
+				objectList.add(FormList.setRandomMammalShow(num));
+			} else if (num >= 30000 && num < 90000) {//爬行类动物表演
+				objectList.add(FormList.setRandomReptileShow(num));
+			} else {
+				//美人鱼
+			}
+		}
+		return objectList;
+	}
+	
+	//处理喂食动物 @TODO
+	public static void dealWithFeed(ArrayList<Integer> numbers, ArrayList<AnimalShow> objectList) {
+		Scanner input = new Scanner(System.in);
+		while (!numbers.isEmpty()) {
+			String feed = input.nextLine();
+			String[] feeds = feed.split(" ");
+			int number = Integer.parseInt(feeds[0]);
+			if (numbers.contains(number)) {
+				int index = getFeededType(objectList, number);
+				if (index == objectList.size()) {//美人鱼
+					break;
+				}
+				currentMinute += objectList.get(index).getFeedTime();
+				String stdTime = transformMinuteIntoHour(currentMinute);//转化时间
+				System.out.println(stdTime + "   " + objectList.get(index).getType() + "喂食成功");
+				numbers.remove(numbers.indexOf(number));
+			}
+		}
+		int feedTime = 1;
+		currentMinute += feedTime;
+		String stdTime = transformMinuteIntoHour(currentMinute);//转化时间
+		System.out.println(stdTime + "   美人鱼准备完毕");
+		System.out.println("所有的动物喂食完毕，美人鱼也准备完毕，可以入场");
+		input.close();
+	}
+	
+	//获得所有序号
+	public static ArrayList<Integer> getAllNumber(ArrayList<String> showList) {
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		int i = 3;
+		while (!showList.get(i).equals("show end")) {
+			String feed = showList.get(i);
+			String[] feeds = feed.split(" ");
+			int number = Integer.parseInt(feeds[0]);
+			numbers.add(number);
+			i++;
+		}
+		return numbers;
+	}
+	
+	//将分钟转化为小时（从八点开始）
+	public static String transformMinuteIntoHour(int minute) {
+		String stdTime = "";
+		int hour = minute / 60;
+		int min = minute % 60;
+		
+		if (min >= 10) {
+			stdTime = hour + ":" + min;
+		} else {
+			stdTime = hour + ":0" + min;
+		}
+		
+		return stdTime;
+	}
+	
+	//获取被喂食的动物的下标
+	public static int getFeededType(ArrayList<AnimalShow> objectList, int number) {
+		int i = 0;
+		for (; i <  objectList.size(); i++) {
+			if (objectList.get(i).getNumber() == number) {
+				break;
+			}
+		}
+		return i;
+	}
+}

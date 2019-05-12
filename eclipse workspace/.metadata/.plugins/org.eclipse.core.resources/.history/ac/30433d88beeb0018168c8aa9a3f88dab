@@ -1,0 +1,28 @@
+
+public class Lever2 extends Lever {
+
+	public Lever2() {
+		super();
+	}
+	
+	public Lever2(int pos) {
+		super(pos);
+	}
+
+	public int getPos() {
+		return pos;
+	}
+	
+	public void upPos() {
+		if (this.pos < 5) {
+			this.pos ++;
+		}
+	}
+	
+	public void downPos() {
+		if (this.pos > 1) {
+			this.pos --;
+		}
+	}
+
+}

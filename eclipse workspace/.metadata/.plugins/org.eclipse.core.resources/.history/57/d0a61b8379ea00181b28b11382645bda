@@ -1,0 +1,22 @@
+
+public class Lever2 extends Lever {
+
+	@Override
+	public int getPos() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void upPos() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void downPos() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

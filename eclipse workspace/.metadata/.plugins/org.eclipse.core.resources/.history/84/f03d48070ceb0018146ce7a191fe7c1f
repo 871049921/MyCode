@@ -1,0 +1,15 @@
+package experiment3;
+
+public class DolphinShow extends MammalShow {
+	public DolphinShow() {
+		
+	}
+	
+	public DolphinShow(int number, String name, int age, String gender, int feedTime) {
+		setNumber(number);
+		setName(name);
+		setAge(age);
+		setGender(gender);
+		setFeedTime(feedTime);
+	}
+}
