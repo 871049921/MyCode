@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/work/cWorkspace/BiTree/Queue.h">
+			<Option target="BiTree"/>
+		</Unit>
 		<Unit filename="D:/work/cWorkspace/BiTree/Stack.h">
 			<Option target="BiTree"/>
 		</Unit>

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/work/cWorkspace/Graph_adj/Queue.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/work/cWorkspace/Graph_adj/main.c
+stdio.h
+-
+stdlib.h
+-
+Queue.h
+D:/work/cWorkspace/Graph_adj/Queue.h
+

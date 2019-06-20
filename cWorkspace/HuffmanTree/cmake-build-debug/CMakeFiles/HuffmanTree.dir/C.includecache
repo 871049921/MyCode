@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/work/cWorkspace/HuffmanTree/HuffmanTree.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

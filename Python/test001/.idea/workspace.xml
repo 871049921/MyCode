@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad06eb95-d34d-46ff-9f93-5df684f5a3f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/.idea/PAT Advanced Level.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/1001/.idea/1001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/1001/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/1001/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/1001/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/1001/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/1001/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT Advanced Level/1001/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test002/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test002/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test002/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test002/.idea/test002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test002/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test002/test002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test003/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test003/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test003/.idea/test003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test003/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test003/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test003/test003.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/ALGraph/.idea/ALGraph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/ALGraph/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/ALGraph/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/ALGraph/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/ALGraph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/ALGraph/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/ALGraph/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/ALGraph/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph/.idea/Graph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph_adj/.idea/Graph_adj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph_adj/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph_adj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph_adj/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph_adj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph_adj/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph_adj/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/Graph_adj/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/HuffmanTree/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/HuffmanTree/HuffmanTree.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/MGraph/.idea/MGraph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/MGraph/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/MGraph/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/MGraph/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/MGraph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/test001/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/test001/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/test001/.idea/test001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cWorkspace/test001/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/BiTree.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/BiTree.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/BiTree.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/BiTree.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BiTree/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BiTree/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/BracketMate.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/BracketMate.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/BracketMate/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/maze.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../cWorkspace/maze/cmake-build-debug/maze.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../大二作业/17201312-黄韦德-数据库概论第一次作业.docx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test001.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="29" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test001.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="75" />
+    <option name="y" value="35" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test001" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="test001" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test001" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test001.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad06eb95-d34d-46ff-9f93-5df684f5a3f7" name="Default Changelist" comment="" />
+      <created>1558364967702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558364967702</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="60" y="28" width="1400" height="784" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15946348" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26203966" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="29" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

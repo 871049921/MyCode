@@ -3,4 +3,4 @@ project(BiTree C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(BiTree main.c Stack.h)
+add_executable(BiTree main.c Stack.h Queue.h)

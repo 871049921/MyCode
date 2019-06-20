@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/work/cWorkspace/MGraph/Queue.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/work/cWorkspace/MGraph/main.c
+stdio.h
+-
+stdlib.h
+-
+Queue.h
+D:/work/cWorkspace/MGraph/Queue.h
+

@@ -1,0 +1,3 @@
+D:/work/PAT Advanced Level/1001/cmake-build-debug/CMakeFiles/1001.dir
+D:/work/PAT Advanced Level/1001/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/work/PAT Advanced Level/1001/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e48af0d-765e-4cf2-8e44-399e8d741ea7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/.idea/PAT Advanced Level.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/1001/.idea/1001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/1001/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/1001/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/1001/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/1001/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/1001/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PAT Advanced Level/1001/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test001/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test001/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test001/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test001/.idea/test001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test001/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test001/test001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test002/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test002/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test002/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test002/.idea/test002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test002/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test002/test002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test003/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test003/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test003/.idea/test003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test003/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test003/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/test003/test003.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/ALGraph/.idea/ALGraph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/ALGraph/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/ALGraph/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/ALGraph/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/ALGraph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/ALGraph/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/ALGraph/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/ALGraph/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/BinarySortTree/.idea/BinarySortTree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/BinarySortTree/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/BinarySortTree/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/BinarySortTree/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/EightSorts/.idea/EightSorts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/EightSorts/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/EightSorts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/EightSorts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/EightSorts/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph/.idea/Graph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph_adj/.idea/Graph_adj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph_adj/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph_adj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph_adj/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph_adj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph_adj/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph_adj/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Graph_adj/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HashTable/.idea/HashTable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HashTable/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HashTable/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HashTable/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HashTable/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HashTable/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HashTable/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HashTable/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HuffmanTree/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/HuffmanTree/HuffmanTree.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/MGraph/.idea/MGraph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/MGraph/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/MGraph/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/MGraph/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/MGraph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Sort/.idea/Sort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Sort/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Sort/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Sort/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Sort/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Sort/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/Sort/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/SortWu/.idea/SortWu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/SortWu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/SortWu/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/SortWu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/SortWu/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/SortWu/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/test001/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/test001/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/test001/.idea/test001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cWorkspace/test001/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/BiTree.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/BiTree.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/BiTree.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/BiTree.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/BiTree.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BiTree/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BiTree/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/BracketMate.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/BracketMate.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/BracketMate.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/BracketMate/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/CMakeFiles/maze.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/maze.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../cWorkspace/maze/cmake-build-debug/maze.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/net.sourceforge.metrics/metricsdb.db" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/net.sourceforge.metrics/metricsdb.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment1/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment1/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment1/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment1/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment2/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment2/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment2/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment2/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment3/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment3/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment3/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment3/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment4/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment4/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment4/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment4/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment5/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment5/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Collections/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Collections/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/CurriculumDesign/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/CurriculumDesign/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Door/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Door/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment3/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment3/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment3/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment3/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment4/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment4/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment4/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment4/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment5/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Experiment5/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/FlyBird/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/FlyBird/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/FlyBird/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/FlyBird/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/JavaFxTest/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/JavaFxTest/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Lambda/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Lambda/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Prime/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Prime/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Prime/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Prime/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Pro_Brush/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Pro_Brush/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Test005/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Test005/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Test006/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Test006/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Web/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/Web/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/src/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/src/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/src/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/src/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/webserver/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.projects/webserver/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.root/88.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.core/2259714435.index" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.core/2259714435.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.core/532271161.index" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.core/532271161.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_y.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_y.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_y.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_y.frq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_y.nrm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_y.prx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_y.tii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/_y.tis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/.recommenders/index/http___download_eclipse_org_recommenders_models_neon_/segments_z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/Test005/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/Test005/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/Test006/bin/a.class" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/Test006/bin/a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse workspace-oxygen/Test006/src/a.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse workspace-oxygen/Test006/src/a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../大二作业/17201312-黄韦德-数据库概论第一次作业.docx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="86" />
+    <option name="y" value="25" />
+    <option name="width" value="1749" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eclipse workspace-oxygen/Assignment5" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e48af0d-765e-4cf2-8e44-399e8d741ea7" name="Default Changelist" comment="" />
+      <created>1560857687140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560857687140</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="69" y="20" width="1399" height="784" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25354213" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+</project>

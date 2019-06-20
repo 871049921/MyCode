@@ -1,0 +1,3 @@
+D:/work/cWorkspace/MGraph/cmake-build-debug/CMakeFiles/MGraph.dir
+D:/work/cWorkspace/MGraph/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/work/cWorkspace/MGraph/cmake-build-debug/CMakeFiles/rebuild_cache.dir

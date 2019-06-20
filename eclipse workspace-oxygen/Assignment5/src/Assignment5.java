@@ -20,27 +20,27 @@ import javafx.util.Duration;
 
 public class Assignment5 extends Application {
 
-	private static String[] output;
-	private static String[] output1 = new String[1000];
+		private static String[] output;
+		private static String[] output1 = new String[1000];
 
-	public static void main(String[] args) throws Exception {
-		File_IO file = new File_IO();
-		String requests[] = file.outputInformation();
+		public static void main(String[] args) throws Exception {
+			File_IO file = new File_IO();
+			String requests[] = file.outputInformation();
 
-		LinkList linklist = new LinkList();
-		for (int i = 0; requests[i] != null; i++) {
-			linklist.inList(requests[i]);
-		}
-		Dispatcher newDispatcher = new NewDispatcher(linklist);
-		newDispatcher.dealWithRequests();
-		output = newDispatcher.getOutputArr();
-		for (int i = 0; output[i] != null; i++) {
-			output1[i] = output[i].split("/")[1];
-			output1[i] = output1[i].replace("(", "");
-			output1[i] = output1[i].replace("(", "");
-		}
-		file.inputInformation(newDispatcher.getOutputArr(), linklist.getInValid());
-		String averangeTime = "³Ë¿ÍµÄÆ½¾ùµÈ´ýÊ±¼äÊÇ" + newDispatcher.getAllWaitsTime() / newDispatcher.getFRNumber() + "Ãë";
+			LinkList linklist = new LinkList();
+			for (int i = 0; requests[i] != null; i++) {
+				linklist.inList(requests[i]);
+			}
+			Dispatcher newDispatcher = new NewDispatcher(linklist);
+			newDispatcher.dealWithRequests();
+			output = newDispatcher.getOutputArr();
+			for (int i = 0; output[i] != null; i++) {
+				output1[i] = output[i].split("/")[1];
+				output1[i] = output1[i].replace("(", "");
+				output1[i] = output1[i].replace("(", "");
+			}
+			file.inputInformation(newDispatcher.getOutputArr(), linklist.getInValid());
+			String averangeTime = "ï¿½Ë¿Íµï¿½Æ½ï¿½ï¿½ï¿½È´ï¿½Ê±ï¿½ï¿½ï¿½ï¿½" + newDispatcher.getAllWaitsTime() / newDispatcher.getFRNumber() + "ï¿½ï¿½";
 		ArrayList<String> waitsTime = newDispatcher.getWaitsTime();
 		waitsTime.add(averangeTime);
 		file.inputInformation(waitsTime);
@@ -52,14 +52,14 @@ public class Assignment5 extends Application {
 		BorderPane pane = new BorderPane();
 		Rectangle rectangle1 = new Rectangle();
 		Rectangle rectangle2 = new Rectangle();
-		Button btStart = new Button("¿ªÊ¼");
-		Button btPause = new Button("ÔÝÍ£");
-		Button btClose = new Button("¹Ø±Õ");
+		Button btStart = new Button("ï¿½ï¿½Ê¼");
+		Button btPause = new Button("ï¿½ï¿½Í£");
+		Button btClose = new Button("ï¿½Ø±ï¿½");
 		HBox hBox = new HBox();
 		VBox vBox1 = new VBox();
 		VBox vBox2 = new VBox();
-		Label lbFloor = new Label("µ±Ç°Â¥²ãÊýÎª£º1");
-		Label lbNumber = new Label("µ±µçÌÝÈËÊýÎª£º0");
+		Label lbFloor = new Label("ï¿½ï¿½Ç°Â¥ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½1");
+		Label lbNumber = new Label("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½0");
 		Polygon pgUP = createAPolygon("UP");
 		Polygon pgDOWN = createAPolygon("DOWN");
 		rectangle1.setHeight(300);
@@ -83,18 +83,18 @@ public class Assignment5 extends Application {
 		btStart.setOnAction(e -> {
 			vBox2.getChildren().removeAll(btStart);
 
-			new Thread(new Runnable() {// ½è¼øÍøÉÏµÄ
+			new Thread(new Runnable() {// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½
 
-				private boolean isStationary = false;// Ä¬ÈÏ²»Ö´ÐÐwait, ¼´ÔÝÍ£µÄ
+				private boolean isStationary = false;// Ä¬ï¿½Ï²ï¿½Ö´ï¿½ï¿½wait, ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½
 
-				public synchronized void toStation() {// Í¬²½·½·¨
+				public synchronized void toStation() {// Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 					isStationary = true;
 				}
 
-				public synchronized void toMove() {// ²»Ö´ÐÐwait£¬²¢»½ÐÑÔÝÍ£µÄÏß³Ì
+				public synchronized void toMove() {// ï¿½ï¿½Ö´ï¿½ï¿½waitï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ß³ï¿½
 					isStationary = false;
 					
-					notify();// µ±Ç°µÈ´ýµÄ½ø³Ì£¬¼ÌÐøÖ´ÐÐ
+					notify();// ï¿½ï¿½Ç°ï¿½È´ï¿½ï¿½Ä½ï¿½ï¿½Ì£ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½
 				}
 
 				int i = 0;
@@ -104,11 +104,11 @@ public class Assignment5 extends Application {
 				public void run() {
 
 					btPause.setOnAction(e -> {
-						if (btPause.getText().equals("ÔÝÍ£")) {
-							btPause.setText("¼ÌÐø");
+						if (btPause.getText().equals("ï¿½ï¿½Í£")) {
+							btPause.setText("ï¿½ï¿½ï¿½ï¿½");
 							toStation();
 						} else {
-							btPause.setText("ÔÝÍ£");
+							btPause.setText("ï¿½ï¿½Í£");
 							toMove();
 						}
 					});
@@ -135,22 +135,22 @@ public class Assignment5 extends Application {
 							Platform.runLater(new Runnable() {
 								@Override
 								public void run() {
-									lbFloor.setText("µ±Ç°Â¥²ãÊýÎª£º" + output1[i].split(",")[0]);
+									lbFloor.setText("ï¿½ï¿½Ç°Â¥ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" + output1[i].split(",")[0]);
 									if (output[i].contains("FR")) {
 										numberInElevator++;
 									} else if (output[i].contains("ER") && numberInElevator != 0) {
 										numberInElevator--;
 									}
-									lbNumber.setText("µ±µçÌÝÈËÊýÎª£º" + numberInElevator);
+									lbNumber.setText("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" + numberInElevator);
 
 								}
 							});
 
 							Thread.sleep(2500);
-							synchronized (this) {// ½è¼øÍøÉÏµÄ
+							synchronized (this) {// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½
 								while (isStationary) {
 									try {
-										wait();// Ïß³Ì½øÈëµÈ´ý×´Ì¬
+										wait();// ï¿½ß³Ì½ï¿½ï¿½ï¿½È´ï¿½×´Ì¬
 									} catch (InterruptedException e) {
 
 									}
@@ -169,12 +169,12 @@ public class Assignment5 extends Application {
 		});
 
 		Scene scene = new Scene(pane, 500, 500);
-		primaryStage.setTitle("µçÌÝ");
+		primaryStage.setTitle("ï¿½ï¿½ï¿½ï¿½");
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
 
-	// ÃÅµÄ¶¯»­
+	// ï¿½ÅµÄ¶ï¿½ï¿½ï¿½
 	public void doorPathTransition(Rectangle rectangle, String direction) {
 		PathTransition pt = new PathTransition();
 		Line line;
@@ -193,7 +193,7 @@ public class Assignment5 extends Application {
 		pt.play();
 	}
 
-	// ÉÏÏÂ¼ýÍ·
+	// ï¿½ï¿½ï¿½Â¼ï¿½Í·
 	public Polygon createAPolygon(String direction) {
 		Polygon pg = new Polygon();
 		pg.setFill(Color.WHITE);

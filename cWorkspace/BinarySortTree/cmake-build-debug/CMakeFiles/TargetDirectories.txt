@@ -1,0 +1,3 @@
+D:/work/cWorkspace/BinarySortTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/work/cWorkspace/BinarySortTree/cmake-build-debug/CMakeFiles/BinarySortTree.dir
+D:/work/cWorkspace/BinarySortTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

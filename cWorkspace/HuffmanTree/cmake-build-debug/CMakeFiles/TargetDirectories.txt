@@ -1,0 +1,3 @@
+D:/work/cWorkspace/HuffmanTree/cmake-build-debug/CMakeFiles/HuffmanTree.dir
+D:/work/cWorkspace/HuffmanTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/work/cWorkspace/HuffmanTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

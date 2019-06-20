@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+D:/work/cWorkspace/BiTree/Queue.h
+stdio.h
+-
+stdlib.h
+-
+
 D:/work/cWorkspace/BiTree/Stack.h
 stdio.h
 -
@@ -17,4 +23,6 @@ conio.h
 D:/work/cWorkspace/BiTree/main.c
 Stack.h
 D:/work/cWorkspace/BiTree/Stack.h
+Queue.h
+D:/work/cWorkspace/BiTree/Queue.h
 
